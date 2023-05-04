@@ -58,11 +58,6 @@ public class selector extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-
-
     }
 
 

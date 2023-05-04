@@ -83,20 +83,24 @@
                         android:padding="3dip"
                         android:textColor="@color/white"
                         android:textStyle="bold"/>
+
                     <EditText
-                        android:padding="3dip"
-                        android:inputType="numberDecimal"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/backgroundbox"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"/>
-                    <EditText
-                        android:padding="3dip"
                         android:inputType="numberDecimal"
+                        android:padding="3dip"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <EditText
                         android:layout_marginRight="10dp"
                         android:background="@drawable/backgroundbox"
+                        android:inputType="numberDecimal"
+                        android:padding="3dip"
+                        android:text="0"
                         android:textColor="@color/white"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
                     <EditText
                         android:padding="3dip"
                         android:inputType="numberDecimal"
@@ -111,22 +115,26 @@
                         android:padding="3dip"
                         android:textColor="@color/white"
                         android:textStyle="bold"/>
+
                     <EditText
-                        android:padding="3dip"
-                        android:inputType="numberDecimal"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/backgroundbox"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"/>
-                    <EditText
-                        android:padding="3dip"
                         android:inputType="numberDecimal"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/backgroundbox"
+                        android:padding="3dip"
+                        android:text="0"
                         android:textColor="@color/white"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/backgroundbox"
+                        android:inputType="numberDecimal"
+                        android:padding="3dip"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
                     <EditText
                         android:padding="3dip"
                         android:inputType="numberDecimal"

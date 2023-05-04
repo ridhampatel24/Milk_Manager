@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -29,9 +30,20 @@ public class entermobile extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_entermobilenumber);
 
-        Intent intent = new Intent(getApplicationContext(),selector.class);
-        startActivity(intent);
+//        Intent intent = new Intent(getApplicationContext(),registeruser.class);
+//        startActivity(intent);
+        SharedPreferences getShared = getSharedPreferences("user",MODE_PRIVATE);
+        Boolean registeredUser = getShared.getBoolean("registeredUser",false);
+        if(registeredUser){
+            Toast.makeText(entermobile.this, registeredUser.toString(), Toast.LENGTH_SHORT).show();
 
+            Intent i = new Intent(getApplicationContext(), dashboardc.class);
+            startActivity(i);
+        }
+        else {
+            Toast.makeText(entermobile.this, registeredUser.toString(), Toast.LENGTH_SHORT).show();
+
+        }
         enternumber = findViewById(R.id.input_mobile_number);
         getotpbutton = findViewById(R.id.buttongetopt);
 
