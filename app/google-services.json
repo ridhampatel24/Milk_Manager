@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449123559795",
+    "project_id": "milkmanotp",
+    "storage_bucket": "milkmanotp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449123559795:android:49ce9602901cd9aff63d06",
+        "android_client_info": {
+          "package_name": "com.ridham.milk_man"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449123559795-4vgul94gcscpku1bfost6f7tafkm1pak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4XXe7xZceJRlOtPNrHBKKBQiCzmMxtLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449123559795-4vgul94gcscpku1bfost6f7tafkm1pak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
