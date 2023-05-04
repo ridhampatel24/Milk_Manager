@@ -22,6 +22,10 @@
         android:theme="@style/Theme.Milk_Man"
         tools:targetApi="31">
         <activity
+            android:name=".milkmanDashboard"
+            android:exported="false" />
+
+        <activity
             android:name=".dashboardc"
             android:exported="false" />
         <activity

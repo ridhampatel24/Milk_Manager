@@ -12,12 +12,11 @@ import androidx.annotation.Nullable;
 
 import java.util.List;
 
-public class Myadapter extends ArrayAdapter {
-
+public class customerAdapter extends ArrayAdapter {
     List<String> listname;
     Context context;
 
-    public Myadapter(@NonNull Context context, List<String> name) {
+    public customerAdapter(@NonNull Context context, List<String> name) {
         super(context, R.layout.items,name);
         this.listname = name;
         this.context = context;
@@ -26,7 +25,7 @@ public class Myadapter extends ArrayAdapter {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View view = LayoutInflater.from(context).inflate(R.layout.items,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.customer,parent,false);
         TextView textView = view.findViewById(R.id.milkprovider);
 
         textView.setText(listname.get(position));

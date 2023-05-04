@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="8dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        android:layout_width="match_parent"
+        android:background="@color/back"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/milkprovider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/colortextfirst"
+                android:text="Dhaval Varia"
+                android:background="@drawable/savebtn"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:stretchColumns="*"
+                android:padding="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/backgroundbox"
+                android:columnCount="4"
+                android:useDefaultMargins="true"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="Slot"
+
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:text="Cow"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="Buffalo"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="Other"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Morning"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:padding="3dip"
+                        android:inputType="numberDecimal"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/backgroundbox"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:padding="3dip"
+                        android:inputType="numberDecimal"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/backgroundbox"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:padding="3dip"
+                        android:inputType="numberDecimal"
+                        android:background="@drawable/backgroundbox"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Evening"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:padding="3dip"
+                        android:inputType="numberDecimal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/backgroundbox"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:padding="3dip"
+                        android:inputType="numberDecimal"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/backgroundbox"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:padding="3dip"
+                        android:inputType="numberDecimal"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/backgroundbox"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/report"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Accept"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/backbutton"
+                    android:textColor="@color/colortextfirst"
+                    android:textStyle="bold">
+                </androidx.appcompat.widget.AppCompatButton>
+
+<!--                <androidx.appcompat.widget.AppCompatButton-->
+<!--                    android:id="@+id/pay"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:text="Payment"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:background="@drawable/backbutton"-->
+<!--                    android:textColor="@color/colortextfirst"-->
+<!--                    android:textStyle="bold">-->
+
+<!--                </androidx.appcompat.widget.AppCompatButton>-->
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/save"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Declines"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/backbutton"
+                    android:textColor="@color/colortextfirst"
+                    android:textStyle="bold">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
