@@ -10,4 +10,5 @@
     <string name="get_otp">Get OTP</string>
     <string name="title_activity_selector">selector</string>
     <string name="adminno">8320255090</string>
+    <string name="logout">Logout</string>
 </resources>
