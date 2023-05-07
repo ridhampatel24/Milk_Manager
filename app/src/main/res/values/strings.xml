@@ -8,7 +8,8 @@
     <string name="did_n_t_received_an_otp">Didn\'t received an OTP?</string>
     <string name="resend_otp_again">RESEND OTP</string>
     <string name="get_otp">Get OTP</string>
-    <string name="title_activity_selector">selector</string>
-    <string name="adminno">8320255090</string>
+    <string name="title_activity_selector" translatable="false">selector</string>
+    <string name="adminno" translatable="false">8320255090</string>
     <string name="logout">Logout</string>
+    <string name="language">Language</string>
 </resources>
