@@ -151,7 +151,7 @@
                     <EditText
                         android:padding="3dip"
                         android:inputType="numberDecimal"
-                        android:background="@drawable/backgroundbox"
+                        android:background="@drawable/backgroundbox1"
                         android:textColor="@color/white"
                         android:textStyle="bold"/>
 
@@ -182,7 +182,7 @@
                         android:padding="3dip"
                         android:inputType="numberDecimal"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/backgroundbox"
+                        android:background="@drawable/backgroundbox1"
                         android:textColor="@color/white"
                         android:textStyle="bold"/>
                 </TableRow>

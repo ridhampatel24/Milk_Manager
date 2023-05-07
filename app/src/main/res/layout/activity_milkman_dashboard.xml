@@ -22,7 +22,8 @@
             android:padding="10dp"
             android:background="@drawable/total"
             android:layout_gravity="center_horizontal"
-            android:gravity="center">
+            android:gravity="center"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
@@ -58,17 +59,21 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
-            android:layout_height="480dp"
+            android:layout_height="503dp"
+            android:layout_marginLeft="20dp"
 
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/backgroundbox"
             android:orientation="vertical"
-            android:background="@drawable/backgroundbox">
+            android:elevation="28dp"
+            >
 
             <ListView
                 android:id="@+id/customerList"
-                android:divider="@null"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:divider="@null" />
         </LinearLayout>
 
     </LinearLayout>

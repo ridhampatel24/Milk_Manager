@@ -13,7 +13,9 @@
         app:cardCornerRadius="8dp"
         android:layout_width="match_parent"
         android:background="@color/back"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -102,9 +104,9 @@
                         android:textColor="@color/white"
                         android:textStyle="bold" />
                     <EditText
-                        android:padding="3dip"
+                        android:padding="3dp"
                         android:inputType="numberDecimal"
-                        android:background="@drawable/backgroundbox"
+                        android:background="@drawable/backgroundbox1"
                         android:textColor="@color/white"
                         android:textStyle="bold"/>
 
@@ -121,7 +123,7 @@
                         android:layout_marginRight="10dp"
                         android:background="@drawable/backgroundbox"
                         android:inputType="numberDecimal"
-                        android:padding="3dip"
+                        android:padding="3dp"
                         android:text="0"
                         android:textColor="@color/white"
                         android:textStyle="bold" />
@@ -136,10 +138,10 @@
                         android:textColor="@color/white"
                         android:textStyle="bold" />
                     <EditText
-                        android:padding="3dip"
+                        android:padding="3dp"
                         android:inputType="numberDecimal"
                         android:layout_marginTop="5dp"
-                        android:background="@drawable/backgroundbox"
+                        android:background="@drawable/backgroundbox1"
                         android:textColor="@color/white"
                         android:textStyle="bold"/>
                 </TableRow>
@@ -149,7 +151,11 @@
                 android:layout_width="wrap_content"
                 android:orientation="horizontal"
                 android:layout_gravity="center_horizontal"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/backgroundbox"
+
+                >
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/report"
@@ -178,7 +184,7 @@
                     android:id="@+id/save"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
-                    android:text="Declines"
+                    android:text="Decline"
                     android:layout_margin="10dp"
                     android:background="@drawable/backbutton"
                     android:textColor="@color/colortextfirst"

@@ -14,17 +14,27 @@
         android:paddingTop="20dp"
         android:paddingLeft="40dp"
         android:layout_marginTop="-250dp"
+        android:layout_marginBottom="100dp"
         />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundbox"
+    android:paddingLeft="90dp"
+    android:paddingRight="110dp"
+    android:layout_marginLeft="0dp"
 
+    >
     <Spinner
         android:id="@+id/my_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:paddingRight="60dp"
-        android:layout_margin="30dp"
+        android:paddingRight="-10dp"
+        android:layout_margin="10dp"
         android:layout_marginTop="150dp"
-
+        android:backgroundTint="#FFC703"
           />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -38,4 +48,6 @@
         android:textStyle="bold"
 
         />
+</LinearLayout>
+
 </LinearLayout>
